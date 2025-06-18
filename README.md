@@ -1,10 +1,9 @@
+
+
+ 📝  Autonomous Waste Sorting Robot
 Ephraim Baraka
 Asaph King'ori
 Pascal Ngima
----
-
- 📝  Autonomous Waste Sorting Robot
-
 ```markdown
 🗑️ Autonomous Waste Sorting Robot
 
