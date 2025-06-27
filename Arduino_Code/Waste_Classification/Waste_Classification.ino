@@ -1,5 +1,5 @@
 #include <AccelStepper.h>
-#include <ESP32Servo.h>
+#include <Servo.h>
 
 #define GRIPPER_PIN 7  // Pin for the servo controlling the gripper
 #define WRIST_PIN 1    // Pin for the servo controlling wrist rotation
@@ -50,7 +50,7 @@ void loop() {
         executeCommand(ID);
 
         ID = "NULL";
-    }   
+    }  delay(100); 
 }
 
 void executeCommand(String ID) {
